@@ -25,6 +25,6 @@
 [submodule "Task_09_DA"]
 	path = Task_09_DA
 	url = https://github.com/avig14/Task_09_DA.git
-[submodule "Task_010_DA"]
-	path = Task_010_DA
+[submodule "Task_10_DA"]
+	path = Task_10_DA
 	url = https://github.com/avig14/Task_010_DA.git

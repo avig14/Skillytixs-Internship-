@@ -19,7 +19,7 @@ Each task lives in its own repository, linked here as a **git submodule**.
 | [Task_07_DA](https://github.com/avig14/Task_07_DA) | Task 07 — 24 Nov | Advanced Visualization (Walmart Sales) |
 | [Task_08_DA](https://github.com/avig14/Task_08_DA) | Task 08 — 25 Nov | Feature Engineering + ML Regression (House Prices) |
 | [Task_09_DA](https://github.com/avig14/Task_09_DA) | Task 09 — 26 Nov | SQL Aggregations (Online Retail) |
-| [Task_010_DA](https://github.com/avig14/Task_010_DA) | Task 10 — 27 Nov | Web Scraping (Job Market Analysis) |
+| [Task_10_DA](https://github.com/avig14/Task_010_DA) | Task 10 — 27 Nov | Web Scraping (Job Market Analysis) |
 
 ---
 
