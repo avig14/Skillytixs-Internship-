@@ -121,7 +121,7 @@ Each task lives in its own repository, linked here as a **git submodule**.
 
 | Category | Tools / Libraries |
 |----------|-------------------|
-| Language | Python 3, SQL |
+| Language | Python , SQL |
 | Data Manipulation | pandas, numpy |
 | Visualization | matplotlib, seaborn, plotly, Chart.js |
 | Machine Learning | scikit-learn (RandomForest, LogisticRegression, StandardScaler, KFold) |
