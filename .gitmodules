@@ -1,0 +1,30 @@
+[submodule "Task_01_DA"]
+	path = Task_01_DA
+	url = https://github.com/avig14/Task_01_DA.git
+[submodule "Task_02_DA"]
+	path = Task_02_DA
+	url = https://github.com/avig14/Task_02_DA.git
+[submodule "Task_03_DA"]
+	path = Task_03_DA
+	url = https://github.com/avig14/Task_03_DA.git
+[submodule "Task_04_DA"]
+	path = Task_04_DA
+	url = https://github.com/avig14/Task_04_DA.git
+[submodule "Task_05_DA"]
+	path = Task_05_DA
+	url = https://github.com/avig14/Task_05_DA.git
+[submodule "Task_06_DA"]
+	path = Task_06_DA
+	url = https://github.com/avig14/Task_06_DA.git
+[submodule "Task_07_DA"]
+	path = Task_07_DA
+	url = https://github.com/avig14/Task_07_DA.git
+[submodule "Task_08_DA"]
+	path = Task_08_DA
+	url = https://github.com/avig14/Task_08_DA.git
+[submodule "Task_09_DA"]
+	path = Task_09_DA
+	url = https://github.com/avig14/Task_09_DA.git
+[submodule "Task_010_DA"]
+	path = Task_010_DA
+	url = https://github.com/avig14/Task_010_DA.git
