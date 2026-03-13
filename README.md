@@ -1,6 +1,6 @@
 # Skillytixs Data Analytics Internship
 
-A 10-task Data Analytics Internship completed between **November 14–27, 2025**, covering the full analytics lifecycle: data cleaning, EDA, SQL, machine learning, interactive dashboards, and web scraping.
+A 10-task Data Analytics Internship covering the full analytics lifecycle: data cleaning, EDA, SQL, machine learning, interactive dashboards, and web scraping.
 
 Each task lives in its own repository, linked here as a **git submodule**.
 
