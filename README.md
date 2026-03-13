@@ -10,22 +10,22 @@ Each task lives in its own repository, linked here as a **git submodule**.
 
 | Folder | Task | Topic |
 |--------|------|-------|
-| [Task_01_DA](https://github.com/avig14/Task_01_DA) | Task 01 — 14 Nov | Data Cleaning (Medical Appointments) |
-| [Task_02_DA](https://github.com/avig14/Task_02_DA) | Task 02 — 17 Nov | Exploratory Data Analysis (Titanic) |
-| [Task_03_DA](https://github.com/avig14/Task_03_DA) | Task 03 — 18 Nov | SQL Analysis (Walmart Sales – MySQL) |
-| [Task_04_DA](https://github.com/avig14/Task_04_DA) | Task 04 — 19 Nov | ML Classification (Telco Churn) |
-| [Task_05_DA](https://github.com/avig14/Task_05_DA) | Task 05 — 20 Nov | Interactive Dashboard (Supermarket Sales) |
-| [Task_06_DA](https://github.com/avig14/Task_06_DA) | Task 06 — 21 Nov | SQLite + Python Integration |
-| [Task_07_DA](https://github.com/avig14/Task_07_DA) | Task 07 — 24 Nov | Advanced Visualization (Walmart Sales) |
-| [Task_08_DA](https://github.com/avig14/Task_08_DA) | Task 08 — 25 Nov | Feature Engineering + ML Regression (House Prices) |
-| [Task_09_DA](https://github.com/avig14/Task_09_DA) | Task 09 — 26 Nov | SQL Aggregations (Online Retail) |
-| [Task_10_DA](https://github.com/avig14/Task_010_DA) | Task 10 — 27 Nov | Web Scraping (Job Market Analysis) |
+| [Task_01_DA](https://github.com/avig14/Task_01_DA) | Task 01 | Data Cleaning (Medical Appointments) |
+| [Task_02_DA](https://github.com/avig14/Task_02_DA) | Task 02 | Exploratory Data Analysis (Titanic) |
+| [Task_03_DA](https://github.com/avig14/Task_03_DA) | Task 03 | SQL Analysis (Walmart Sales – MySQL) |
+| [Task_04_DA](https://github.com/avig14/Task_04_DA) | Task 04 | ML Classification (Telco Churn) |
+| [Task_05_DA](https://github.com/avig14/Task_05_DA) | Task 05 | Interactive Dashboard (Supermarket Sales) |
+| [Task_06_DA](https://github.com/avig14/Task_06_DA) | Task 06 | SQLite + Python Integration |
+| [Task_07_DA](https://github.com/avig14/Task_07_DA) | Task 07 | Advanced Visualization (Walmart Sales) |
+| [Task_08_DA](https://github.com/avig14/Task_08_DA) | Task 08 | Feature Engineering + ML Regression (House Prices) |
+| [Task_09_DA](https://github.com/avig14/Task_09_DA) | Task 09 | SQL Aggregations (Online Retail) |
+| [Task_10_DA](https://github.com/avig14/Task_010_DA) | Task 10 | Web Scraping (Job Market Analysis) |
 
 ---
 
 ## Task Summaries
 
-### Task 01 — Data Cleaning (14 Nov)
+### Task 01 — Data Cleaning 
 **Dataset:** Medical Appointments (`KaggleV2-May-2016.csv`, ~110k rows)
 - Removed duplicates, standardized column names to `snake_case`
 - Parsed date columns as proper datetime objects
@@ -35,7 +35,7 @@ Each task lives in its own repository, linked here as a **git submodule**.
 
 ---
 
-### Task 02 — Exploratory Data Analysis (17 Nov)
+### Task 02 — Exploratory Data Analysis 
 **Dataset:** Titanic (418 rows)
 - Univariate & bivariate analysis, correlation heatmap
 - Imputed missing ages using median grouped by `pclass` and `sex`
@@ -45,7 +45,7 @@ Each task lives in its own repository, linked here as a **git submodule**.
 
 ---
 
-### Task 03 — SQL Analysis (18 Nov)
+### Task 03 — SQL Analysis 
 **Dataset:** Walmart Sales (6,435 rows, 45 stores)
 - MySQL database setup with `LOAD DATA LOCAL INFILE`
 - Aggregate queries: top stores, holiday impact, year-wise breakdown
@@ -55,7 +55,7 @@ Each task lives in its own repository, linked here as a **git submodule**.
 
 ---
 
-### Task 04 — ML Classification / Churn Prediction (19 Nov)
+### Task 04 — ML Classification / Churn Prediction 
 **Dataset:** Telco Customer Churn (~7k rows)
 - Full ML pipeline: cleaning → encoding → scaling → train/test split
 - Models: Logistic Regression + Random Forest; evaluated with AUC-ROC
@@ -64,7 +64,7 @@ Each task lives in its own repository, linked here as a **git submodule**.
 
 ---
 
-### Task 05 — Interactive Dashboard (20 Nov)
+### Task 05 — Interactive Dashboard 
 **Dataset:** Supermarket Sales
 - Standalone browser dashboard (`task_05.html`) — no server needed
 - KPI cards + charts using Chart.js; in-browser CSV parsing via PapaParse
@@ -73,7 +73,7 @@ Each task lives in its own repository, linked here as a **git submodule**.
 
 ---
 
-### Task 06 — SQLite + Python Integration (21 Nov)
+### Task 06 — SQLite + Python Integration 
 - Created `sales_data.db` using Python's `sqlite3` library inside a notebook
 - Queried with `GROUP BY` → pandas DataFrame → matplotlib bar chart
 
@@ -81,7 +81,7 @@ Each task lives in its own repository, linked here as a **git submodule**.
 
 ---
 
-### Task 07 — Advanced Visualization (24 Nov)
+### Task 07 — Advanced Visualization 
 **Dataset:** Walmart Weekly Sales (45 stores, 2010–2012)
 - Interactive Plotly charts + static Seaborn charts
 - Sales trend, store comparison, holiday analysis, seasonality, correlation heatmap
@@ -90,7 +90,7 @@ Each task lives in its own repository, linked here as a **git submodule**.
 
 ---
 
-### Task 08 — Feature Engineering + Kaggle Regression (25 Nov)
+### Task 08 — Feature Engineering + Kaggle Regression 
 **Dataset:** House Prices — Advanced Regression Techniques (Kaggle)
 - Combined train+test preprocessing, log1p skewness correction, one-hot encoding
 - RandomForestRegressor (400 trees, 5-fold CV); output: `submission.csv`
@@ -99,7 +99,7 @@ Each task lives in its own repository, linked here as a **git submodule**.
 
 ---
 
-### Task 09 — SQL Aggregations / Sales Trend Analysis (26 Nov)
+### Task 09 — SQL Aggregations / Sales Trend Analysis 
 **Dataset:** Online Retail (UK e-commerce, 2010–2011)
 - Cleaned table, indexed columns, monthly revenue CTE, top-5 months
 - Demonstrated `WHERE` vs `HAVING`
@@ -108,7 +108,7 @@ Each task lives in its own repository, linked here as a **git submodule**.
 
 ---
 
-### Task 10 — Web Scraping / Job Market Analysis (27 Nov)
+### Task 10 — Web Scraping / Job Market Analysis
 **Source:** TimesJobs.com ("Data Analyst" listings)
 - Scraped with `requests` + `BeautifulSoup`; mock data fallback
 - Top 5 locations and top 5 in-demand skills via `Counter`
